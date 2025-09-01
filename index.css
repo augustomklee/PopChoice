@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+    margin-bottom: 2.25em;
+    margin-inline: 2em;
+    background-color: #000C36;
+    color: white;
+}
+/* --- HEADER STYLES --- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin-top: 3.125em;
+}
+
+.logo {
+    max-width: 110px;
+    height: auto;
+}
+
+header h1 {
+    font: 2.8em sans-serif;
+}
+
+/* --- MAIN  STYLES --- */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+}
+
+form label {
+    font-family: sans-serif;
+}
+
+textarea {
+    background-color: #3B4877;
+    color: white;
+    border-radius: 10px;
+    padding: 0.75em;
+    resize: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+form button {
+    background-color: #51E08A;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 0.625em;
+    padding-block: 0.75em;
+    font-size: 1.875em;
+}

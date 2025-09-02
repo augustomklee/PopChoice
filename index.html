@@ -10,7 +10,7 @@
             <h1>PopChoice</h1>
         </header>
         <main id="main">
-            <form>
+            <form id="user-input-form">
                 <div class="input-container">
                     <label for="favorite-movie">What's your favorite movie and why?</label>
                     <textarea id="favorite-movie"></textarea>
@@ -25,6 +25,11 @@
                 </div>
                 <button id="submit" type="submit">Let's Go</button>
             </form>
+            <div class="movie-container hidden" id="movie-container">
+                <h2 id="movie-title">School of Rock (2009)</h2>
+                <p id="movie-description">A fun and stupid movie about a wannabe rocker turned fraud substitute teacher forming a rock band with his students to win the Battle of the Bands</p>
+                <button id="go-again-btn">Go Again</button>
+            </div>
         </main>
         <script type="module" src="index.js"></script>
     </body>
